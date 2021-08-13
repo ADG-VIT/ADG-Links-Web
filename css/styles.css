@@ -25,6 +25,12 @@ body
   z-index: 1;
 }
 
+.top a
+{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .top p
 {
   margin:0;
@@ -160,4 +166,31 @@ body
   box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+}
+
+@media screen and (max-width: 380px)
+{
+  .cards
+  {
+    width: 50.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card
+  {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 740px)
+{
+  .cards
+  {
+    width: 84.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 }
