@@ -21,6 +21,7 @@ body
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
+  letter-spacing: 0.6px;
   position: fixed;
   z-index: 1;
 }
