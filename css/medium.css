@@ -93,10 +93,13 @@ body
 
 .middle
 {
-  position: absolute;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   top: 162px;
   color: #ffffff;
-  left: 90px;
+  /* left: 90px; */
 }
 
 .middle h1
@@ -106,14 +109,17 @@ body
   font-weight: 600;
   font-size: 36px;
   line-height: 44px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .cards
 {
   position: absolute;
   top: 280px;
-  left: 90px;
-  width: 77%;
+  /* left: 90px; */
+  width: 81.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -123,6 +129,10 @@ body
 .card
 {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 255px;
   height: 255px;
   background-color: #1F1F1F;
@@ -221,5 +231,32 @@ body
   line-height: 15px;
   color: #FFFFFF;
   width: 95%;
+
+}
+@media screen and (max-width: 380px)
+{
+  .cards
+  {
+    width: 50.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card
+  {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 620px)
+{
+  .cards
+  {
+    width: 81.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
 
 }
