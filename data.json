@@ -1,7 +1,7 @@
 [
     {
         "href": "https://adgvit.com/",
-        "src": "./images/Vector.png",
+        "src": "./images/Vector.svg",
         "p1": "Website",
         "p2": "Apple Developer’s Group Website"
     },
@@ -49,7 +49,7 @@
     },
     {
         "href": "https://adgvit.com/projects",
-        "src": "./images/coolicon.png",
+        "src": "./images/coolicon.svg",
         "p1": "Apps",
         "p2": "Apps By Apple Developer’s Group"
     }

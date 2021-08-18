@@ -8,6 +8,13 @@ fetch("./data.json")
         for(var i=0;i<data.length;i++)
         {
             var item=data[i];
-            cards.innerHTML=cards.innerHTML+'<a href='+item.href+'><div class="card"><i class="fab fa-2x '+item.src+'" aria-hidden="true"></i><p class="h1">'+item.p1+'</p><p class="h2">'+item.p2+'</p></div></a>';
+            if(i==0 || i==data.length-1)
+            {
+                cards.innerHTML=cards.innerHTML+'<a href='+item.href+'><div class="card"><img src='+item.src+'><p class="h1">'+item.p1+'</p><p class="h2">'+item.p2+'</p></div></a>';
+            }
+            else
+            {
+                cards.innerHTML=cards.innerHTML+'<a href='+item.href+'><div class="card"><i class="fab fa-2x '+item.src+'" aria-hidden="true"></i><p class="h1">'+item.p1+'</p><p class="h2">'+item.p2+'</p></div></a>';
+            }
         }
     })
