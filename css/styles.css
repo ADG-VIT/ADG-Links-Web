@@ -188,9 +188,9 @@ body
 {
   .cards
   {
-    width: 84.5%;
+    width: 81.5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
