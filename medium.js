@@ -21,6 +21,6 @@ fetch("./mediumdata.json")
         for(var i=0;i<data.length;i++)
         {
             var item=data[i];
-            cards.innerHTML=cards.innerHTML+'<div class="card"><a class="main_a" href="./anirudh.html"><div class="one"><img src='+item.src+' alt="base_img"><div class="image_overlay image_overlay_blur"><div class="overlay_title"><p class="image_description">'+item.img_desc+'</p></div></div></div></a><div class="two"><p class="main_para">'+item.main_para+'</p></div></div>';
+            cards.innerHTML=cards.innerHTML+'<div class="card"><a class="main_a" href='+item.href+'><div class="one"><img src='+item.src+' alt="base_img"><div class="image_overlay image_overlay_blur"><div class="overlay_title"><p class="image_description">'+item.img_desc+'</p></div></div></div></a><div class="two"><p class="main_para">'+item.main_para+'</p></div></div>';
         }
     })
