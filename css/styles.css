@@ -181,21 +181,33 @@ body {
 
 @media screen and (max-width: 380px) {
   .cards {
-    width: 50.5%;
+    width: 81.5%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .card {
-    display: block;
+}
+
+@media screen and (max-width: 621px) and (min-width: 390px) {
+  .cards {
+    width: 95%;
+    display: flex;
+    align-items: center;
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 740px) and (min-width: 625px) {
   .cards {
-    width: 81.5%;
+    width: 82%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+  .cards {
+    width: 86%;
+    display: flex;
     align-items: center;
   }
 }
