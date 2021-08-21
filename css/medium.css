@@ -226,7 +226,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 15px;
+  line-height: 20px;
+  text-align: center;
   color: #ffffff;
   width: 95%;
 }
