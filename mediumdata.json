@@ -1,50 +1,50 @@
 [
     {
-        "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "href":"",
+        "src":"./images/medium/8.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Top Android UI Libraries"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/7.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"7 Powerful Extensions for Students"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/6.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Hyperparameters - Lets Tune"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/5.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Change App Icons in SwiftUI"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/4.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Continuous Deployment to Cloud Run with Cloud Build"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/3.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Swift Programming - Starting from the roots"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/2.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"XHR v/s fetch v/s ajax v/s Axios for API requests"
     },
     {
         "href":"./anirudh.html",
-        "src":"./images/medium/base.png",
+        "src":"./images/medium/1.png",
         "img_desc":"Read More",
-        "main_para":"Change App Icons in Swift UI"
+        "main_para":"Publish website on Github Pages with a custom domain"
     }
 ]
